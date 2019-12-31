@@ -1,0 +1,2 @@
+language = "c"
+run = "cd 01.01-hello_world; clang -lm -o ex-hello ex-hello.c; ./ex-hello"
