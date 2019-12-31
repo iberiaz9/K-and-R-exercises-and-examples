@@ -1,2 +1,2 @@
 language = "c"
-run = "clang -lm 01.02-variables/ex-fahrenheit.c; ./a.out"
+run = "git checkout .replit; clang -lm 01.02-variables/ex-fahrenheit.c; ./a.out"
