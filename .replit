@@ -1,2 +1,2 @@
 language = "c"
-run = "git checkout .replit; clang -lm 01.07*/*.c; ./a.out"
+run = "clang -lm 01.07*/*.c; echo '01.07'; ./a.out"
