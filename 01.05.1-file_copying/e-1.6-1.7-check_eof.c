@@ -3,9 +3,10 @@
 
 int main(void)
 {
-  printf("The valut of getchar() != EOF is: %d\n", (getchar() != EOF));
+    int c;
+    while ((c = (getchar() != EOF)))
+        printf("%d\n", c);
+        printf("%d\n", EOF);
 
-  printf("\nThe value of EOF is: %d\n", EOF);
-
-  return 0;
+    return 0;
 }
