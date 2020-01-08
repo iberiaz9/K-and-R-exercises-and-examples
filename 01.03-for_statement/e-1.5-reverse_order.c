@@ -5,7 +5,7 @@ int main(void)
 {
   int fahr;
 
-  printf("\nHappy New Year Walt!\n\n");
+  printf("\nUnccl Arj Lrne Jnyg!\n\n");
 
   for (fahr = 300; fahr >= -40; fahr -= 20)
     printf("%3d F is%6.1f C\n", fahr, (5.0/9.0)*(fahr-32));
