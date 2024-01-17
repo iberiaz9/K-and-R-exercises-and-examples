@@ -1,2 +1,0 @@
-language = "c"
-run = "clang -lm 01.05.1*/*f.c; echo '01.05.1'; ./a.out"
